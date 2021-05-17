@@ -1,18 +1,19 @@
 import './home_body.css';
 
 import React, { useEffect } from 'react';
+import Slideshow from './slideshow'
 
 const Home_body = () =>{
 	return(
 		<React.Fragment>
 			<div className="oneloop-home-body">
 
-				<div class="home-section1">
-				<h1>Slideshow</h1>
-				</div>				
+                <h1>What is OneLoop?</h1>
+
+                <Slideshow/>
 				
 				<div class="home-section2">
-				<h1>Our Mission</h1>
+				<h2>Our Mission</h2>
 				<p>Our mission is to further explore Hyperloop Technologies by promoting faster, cleaner, and more energy efficient solutions to the transporation sector.
 					We seek to achieve this through cultivating an environment that fosters continuous improvement, collaboration with industry professionals, and teamwork. </p>
 				<p>	OneLoop was founded in 2016 by a group of engineering students at UC Davis in response to SpaceX's announcement of its annual hyperloop competition.
@@ -22,7 +23,7 @@ const Home_body = () =>{
 				
 				</div>
 				<div class="home-section3">
-				<h1>We're building a high-speed vehicle for European Hyperloop Week</h1>
+				<h2>We're building a high-speed vehicle for European Hyperloop Week</h2>
 				<p>The Hyperloop is a novel form of low-cost, fast transportation, consisting of levitating pods propelled through a vacuum tube at transonic speeds. 
 					The concept is projected to be able to transport passengers from San Francisco to Los Angeles in 30 minutes.</p>
 				<p>To further research and innovation at the university level, European Hyperloop Week provides an opportunity for student teams, startups, and companies 
@@ -33,7 +34,7 @@ const Home_body = () =>{
 				</div>
 				
 				<div class="home-section4">
-				<h1>What is European Hyperloop Week?</h1>
+				<h2>What is European Hyperloop Week?</h2>
 				<p>EHW is an international organization bringing together the world’s best university teams developing hyperloop systems. Their goal is to foster an ecosystem of innovation 
 					and challenge in the hopes of strengthening the current infrastructure for hyperloop technology.</p>
 				<p>For this competition, the 2020-2021 OneLoop Team is working to design a groundbreaking hyperloop pod, capable of traveling upwards of 350 miles per hour, featuring a propulsion system of 
