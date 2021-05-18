@@ -8,6 +8,10 @@
     padding: 0 1.5em;
 }
 
+.oneloop-home-container{
+    flex-direction: row;
+} 
+
 .oneloop-home-body h1,
 .oneloop-home-body h2
 {
@@ -20,6 +24,23 @@
 {
     font-size: 2em;
     text-align: center;
+}
+
+.oneloop-home-body p{
+    font-size: 1em;
+}
+
+.oneloop-home-body b
+{
+    color: var(--primary-clr);
+}
+
+.oneloop-home-body a
+{
+    color:var(--primary-clr);
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 .oneloop-home-body h2
@@ -65,4 +86,11 @@
 .slideshow span.active
 {
     background-color: var(--primary-clr);
+}
+
+@media screen (max-width: 900 px){
+    .oneloop-home-body {
+        flex-direction: column;
+    }
+    
 }
